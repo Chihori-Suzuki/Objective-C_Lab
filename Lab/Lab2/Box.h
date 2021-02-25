@@ -16,8 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign) float lengh;
 
 - (instancetype)initHeight:(float) height initWidth:(float) width initLenght:(float) lengh;
-- (float)calculateVolume;
-- (float)calculateScale;
+- (float)calculateVolume
+- (float)calculateScale:(Box*) box;
 
 @end
 

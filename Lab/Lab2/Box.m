@@ -27,16 +27,11 @@
     return _height * _width * _lengh;
 }
 
-- (float)calculateScale
+- (float)calculateScale:(Box*) box
 {
-    float volume = _height * _width * _lengh;
-    return volume / [self calculateScale];
+    return self.calculateVolume / box.calculateVolume;
 }
 
-//- (NSString *)description
-//{
-//    return [NSString stringWithFormat:@"%@", self.height];
-//}
 
 
 @end

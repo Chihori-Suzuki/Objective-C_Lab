@@ -15,7 +15,7 @@ int main(int argc, const char * argv[]) {
         Box *box2 = [[Box alloc] initHeight:30 initWidth:40 initLenght:50];
         
         NSLog(@"%f", [box calculateVolume]);
-        NSLog(@"%f", [box2 calculateScale]);
+//        NSLog(@"%f", [box2 calculateS]);
         
     }
     return 0;
