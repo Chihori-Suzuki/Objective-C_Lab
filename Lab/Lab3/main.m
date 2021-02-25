@@ -1,6 +1,6 @@
 //
 //  main.m
-//  Lab2
+//  Lab3
 //
 //  Created by 鈴木ちほり on 2021/02/24.
 //
