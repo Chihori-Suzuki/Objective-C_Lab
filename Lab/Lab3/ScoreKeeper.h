@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ScoreKeeper : NSObject
 
+@property (assign) NSInteger rightCount;
+@property (assign) NSInteger wrongCount;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
