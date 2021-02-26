@@ -9,12 +9,14 @@
 
 @implementation ScoreKeeper
 
-- (instancetype)initWithRigftCount:(NSInteger *) rightCount WrongCount:(NSInteger *) wrongCount
-{
+int rightCount = 0;
+int wrongCount = 0;
+
+- (instancetype)init {
     self = [super init];
     if (self) {
-        _rightCount = *rightCount;
-        _wrongCount = *wrongCount;
+//        _rightCount = *rightCount;
+//        _wrongCount = *wrongCount;
     }
     return self;
 }

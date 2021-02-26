@@ -12,15 +12,20 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        ScoreKeeper *score = [[ScoreKeeper alloc] init];
+        
         while (YES) {
             AdditionQuestion *question = [[AdditionQuestion alloc] init];
             NSInteger answer = [[InputHandler getUserInput:question.question] intValue];
             
             if (answer == question.answer) {
                 NSLog(@"Right!");
+                score.rightCount++;
             } else {
                 NSLog(@"Wrong!");
+                score.wrongCount++;
             }
+            NSLog(@"%@", score.description);
         }
     }
     return 0;

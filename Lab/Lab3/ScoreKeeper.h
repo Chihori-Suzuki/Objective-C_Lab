@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign) NSInteger rightCount;
 @property (assign) NSInteger wrongCount;
 
+- (instancetype)initWithRigftCount:(NSInteger *) rightCount WrongCount:(NSInteger *) wrongCount;
 
 @end
 
