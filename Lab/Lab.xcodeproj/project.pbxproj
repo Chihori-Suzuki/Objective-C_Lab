@@ -15,6 +15,7 @@
 		2E1D616C25E82C6200F4EBAB /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D616B25E82C6200F4EBAB /* InputHandler.m */; };
 		2E1D617225E8322000F4EBAB /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D617125E8322000F4EBAB /* ScoreKeeper.m */; };
 		2E1D618025E869DF00F4EBAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D617F25E869DF00F4EBAB /* main.m */; };
+		2E1D618B25E976F800F4EBAB /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D618A25E976F800F4EBAB /* InputCollector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +74,8 @@
 		2E1D617125E8322000F4EBAB /* ScoreKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
 		2E1D617D25E869DF00F4EBAB /* Lab4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab4; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1D617F25E869DF00F4EBAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E1D618925E976F800F4EBAB /* InputCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		2E1D618A25E976F800F4EBAB /* InputCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,8 @@
 			isa = PBXGroup;
 			children = (
 				2E1D617F25E869DF00F4EBAB /* main.m */,
+				2E1D618925E976F800F4EBAB /* InputCollector.h */,
+				2E1D618A25E976F800F4EBAB /* InputCollector.m */,
 			);
 			path = Lab4;
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1D618B25E976F800F4EBAB /* InputCollector.m in Sources */,
 				2E1D618025E869DF00F4EBAB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
