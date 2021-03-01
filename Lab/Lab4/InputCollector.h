@@ -10,6 +10,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface InputCollector : NSObject
+- (instancetype)init;
+- (NSString *)inputForPrompt:(NSString *)promptString;
 
 @end
 
