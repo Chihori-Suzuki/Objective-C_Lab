@@ -1,0 +1,25 @@
+//
+//  ApplePaymentService.m
+//  Lab10
+//
+//  Created by 鈴木ちほり on 2021/03/04.
+//
+
+#import "ApplePaymentService.h"
+
+@implementation ApplePaymentService
+
+- (void)processPaymentAmount:(NSInteger)amount {
+    
+}
+
+- (BOOL)canProcessPayment {
+    NSInteger num = arc4random_uniform(1);
+    if(num == 0) {
+        return NO;
+    } else {
+        return YES;
+    }
+}
+
+@end
