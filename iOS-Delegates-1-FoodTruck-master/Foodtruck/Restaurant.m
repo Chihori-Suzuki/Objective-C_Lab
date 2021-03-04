@@ -10,4 +10,14 @@
 
 @implementation Restaurant
 
+- (double)foodTruck:(FoodTruck *)truck priceForFood:(NSString *)food {
+    if ([food isEqualTo:@"bao"]) {
+        return 5.0;
+    } else {
+        return 10.0;
+    }
+}
+
+
+
 @end

@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FoodTruck.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Cook : NSObject
+@interface Cook : NSObject <FoodTruckDelegate>
+
+
 
 @end
 
