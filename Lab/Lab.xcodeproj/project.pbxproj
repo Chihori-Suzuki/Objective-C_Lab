@@ -18,6 +18,10 @@
 		2E1D618B25E976F800F4EBAB /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D618A25E976F800F4EBAB /* InputCollector.m */; };
 		2E1D619225E9CC6D00F4EBAB /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D619125E9CC6D00F4EBAB /* Contact.m */; };
 		2E1D619925EAE08F00F4EBAB /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D619825EAE08F00F4EBAB /* ContactList.m */; };
+		2E1D61AE25EEBD6600F4EBAB /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1D61AD25EEBD6600F4EBAB /* QuestionManager.m */; };
+		2E5EF5B125F00FD900F4488C /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5EF5B025F00FD900F4488C /* Question.m */; };
+		2E5EF5B825F025D800F4488C /* SubstractionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5EF5B725F025D800F4488C /* SubstractionQuestion.m */; };
+		2E5EF5BF25F028E200F4488C /* QuestionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5EF5BE25F028E200F4488C /* QuestionFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,6 +86,14 @@
 		2E1D619125E9CC6D00F4EBAB /* Contact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 		2E1D619725EAE08F00F4EBAB /* ContactList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
 		2E1D619825EAE08F00F4EBAB /* ContactList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
+		2E1D61AC25EEBD6600F4EBAB /* QuestionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
+		2E1D61AD25EEBD6600F4EBAB /* QuestionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
+		2E5EF5AF25F00FD900F4488C /* Question.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		2E5EF5B025F00FD900F4488C /* Question.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		2E5EF5B625F025D800F4488C /* SubstractionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubstractionQuestion.h; sourceTree = "<group>"; };
+		2E5EF5B725F025D800F4488C /* SubstractionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubstractionQuestion.m; sourceTree = "<group>"; };
+		2E5EF5BD25F028E200F4488C /* QuestionFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionFactory.h; sourceTree = "<group>"; };
+		2E5EF5BE25F028E200F4488C /* QuestionFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +170,14 @@
 				2E1D616B25E82C6200F4EBAB /* InputHandler.m */,
 				2E1D617025E8322000F4EBAB /* ScoreKeeper.h */,
 				2E1D617125E8322000F4EBAB /* ScoreKeeper.m */,
+				2E1D61AC25EEBD6600F4EBAB /* QuestionManager.h */,
+				2E1D61AD25EEBD6600F4EBAB /* QuestionManager.m */,
+				2E5EF5AF25F00FD900F4488C /* Question.h */,
+				2E5EF5B025F00FD900F4488C /* Question.m */,
+				2E5EF5B625F025D800F4488C /* SubstractionQuestion.h */,
+				2E5EF5B725F025D800F4488C /* SubstractionQuestion.m */,
+				2E5EF5BD25F028E200F4488C /* QuestionFactory.h */,
+				2E5EF5BE25F028E200F4488C /* QuestionFactory.m */,
 			);
 			path = Lab3;
 			sourceTree = "<group>";
@@ -312,10 +332,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1D61AE25EEBD6600F4EBAB /* QuestionManager.m in Sources */,
 				2E1D617225E8322000F4EBAB /* ScoreKeeper.m in Sources */,
 				2E1D613B25E73EA300F4EBAB /* main.m in Sources */,
+				2E5EF5B125F00FD900F4488C /* Question.m in Sources */,
+				2E5EF5BF25F028E200F4488C /* QuestionFactory.m in Sources */,
 				2E1D616C25E82C6200F4EBAB /* InputHandler.m in Sources */,
 				2E1D616625E8219E00F4EBAB /* AdditionQuestion.m in Sources */,
+				2E5EF5B825F025D800F4488C /* SubstractionQuestion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

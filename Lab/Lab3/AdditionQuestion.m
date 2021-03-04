@@ -11,19 +11,14 @@
 
 - (instancetype)init{
     if (self = [super init]) {
-        NSInteger rndFirstVal = 10 + arc4random() % (100 - 10);
-        NSInteger rndSecondVal = 10 + arc4random() % (100 - 10);
-        
-        _question = [NSString stringWithFormat:@"%i + %i ?", rndFirstVal, rndSecondVal];
-        _answer = rndFirstVal + rndSecondVal;
-        
+        [self generateQuestion];
     }
     return self;
 }
 
-- (void)generateRandomQuestion{
-    
+-(void)generateQuestion {
+    super.question = [NSString stringWithFormat:@"%li + %li = ?", (long) super.leftValue, (long) super.rightValue];
+    super.answer = super.leftValue + super.rightValue;
 }
-
 
 @end

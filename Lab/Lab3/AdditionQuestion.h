@@ -6,14 +6,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Question.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AdditionQuestion : NSObject
+@interface AdditionQuestion : Question
 
-@property (assign) NSString *question;
-@property (assign) NSInteger *answer;
-
+-(void) generateQuestion;
+//@property (assign) NSString *question;
+//@property (nonatomic) NSInteger *answer;
+//
+//@property (assign) NSDate *startTime;
+//@property (assign) NSDate *endTime;
+//
+//- (NSTimeInterval)answerTime;
 
 @end
 

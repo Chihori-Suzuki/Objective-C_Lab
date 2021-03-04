@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface InputHandler : NSObject
 
 - (instancetype)init;
-+ (NSString *)getUserInput:(NSString *) prompt;
++ (NSString *)getUserInput;
 
 @end
 

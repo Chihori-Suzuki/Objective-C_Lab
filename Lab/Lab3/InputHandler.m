@@ -17,9 +17,9 @@
     return self;
 }
 // prompts the message and takes user input from the command line (C) and returns as NSString
-+ (NSString*)getUserInput:(NSString *) prompt {
++ (NSString*)getUserInput {
     int maxLength = 255;
-    NSLog(@"%@ ", prompt);
+//    NSLog(@"%@ ", prompt);
     char inputChars[maxLength]; // create a char array of size maxLength
     char *result = fgets(inputChars, maxLength, stdin);
     if (result != NULL) {

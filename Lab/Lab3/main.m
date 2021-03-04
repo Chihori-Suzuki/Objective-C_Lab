@@ -9,16 +9,29 @@
 #import "AdditionQuestion.h"
 #import "InputHandler.h"
 #import "ScoreKeeper.h"
+#import "QuestionManager.h"
+#import "Question.h"
+#import "QuestionFactory.h"
+#import "SubstractionQuestion.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        ScoreKeeper *score = [[ScoreKeeper alloc] init];
         
-        while (YES) {
-            AdditionQuestion *question = [[AdditionQuestion alloc] init];
-            NSInteger answer = [[InputHandler getUserInput:question.question] intValue];
+        BOOL gameon = YES;
+        ScoreKeeper *score = [[ScoreKeeper alloc] init];
+        QuestionManager *questionManeger = [[QuestionManager alloc] init];
+        QuestionFactory *questionFactory = [[QuestionFactory alloc] init];
+        
+        while (gameon) {
+            Question *question1 = [questionFactory generateRandomQuestion];
+            [[questionManeger questions] addObject: question1];
+            NSLog(@"%@", [question1 question]);
             
-            if (answer == question.answer) {
+            NSString *userInput = [InputHandler getUserInput];
+            
+            if ([userInput isEqualTo:@"quit"]) {
+                gameon = NO;
+            } else if ([userInput integerValue] == [question1 answer]) {
                 NSLog(@"Right!");
                 score.rightCount++;
             } else {
