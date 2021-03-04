@@ -28,6 +28,9 @@
 		2E5FDB9225F0C37000653BCD /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5FDB9125F0C37000653BCD /* PaypalPaymentService.m */; };
 		2E5FDB9A25F0C38600653BCD /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5FDB9925F0C38600653BCD /* AmazonPaymentService.m */; };
 		2E5FDBA325F15C2600653BCD /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5FDBA225F15C2600653BCD /* ApplePaymentService.m */; };
+		2E5FDBB025F160A500653BCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5FDBAF25F160A500653BCD /* main.m */; };
+		2E5FDC1925F16A5B00653BCD /* Greeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5FDBDB25F168EC00653BCD /* Greeter.m */; };
+		2E5FDC1A25F16A5B00653BCD /* FriendlyGreetingDecider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5FDBE425F168F800653BCD /* FriendlyGreetingDecider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +71,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		2E5FDB7225F0790100653BCD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2E5FDBAB25F160A500653BCD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		2E5FDBF925F1699B00653BCD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -121,6 +142,13 @@
 		2E5FDB9925F0C38600653BCD /* AmazonPaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
 		2E5FDBA125F15C2600653BCD /* ApplePaymentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
 		2E5FDBA225F15C2600653BCD /* ApplePaymentService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
+		2E5FDBAD25F160A500653BCD /* Lab9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab9; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5FDBAF25F160A500653BCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E5FDBDB25F168EC00653BCD /* Greeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Greeter.m; sourceTree = "<group>"; };
+		2E5FDBDC25F168EC00653BCD /* Greeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greeter.h; sourceTree = "<group>"; };
+		2E5FDBE425F168F800653BCD /* FriendlyGreetingDecider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendlyGreetingDecider.m; sourceTree = "<group>"; };
+		2E5FDBE525F168F800653BCD /* FriendlyGreetingDecider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendlyGreetingDecider.h; sourceTree = "<group>"; };
+		2E5FDBFB25F1699B00653BCD /* Lab9-1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab9-1"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +187,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E5FDBAA25F160A500653BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E5FDBF825F1699B00653BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -169,6 +211,7 @@
 				2E1D612525E73E2800F4EBAB /* Lab2 */,
 				2E1D613925E73EA300F4EBAB /* Lab3 */,
 				2E1D617E25E869DF00F4EBAB /* Lab4 */,
+				2E5FDBAE25F160A500653BCD /* Lab9 */,
 				2E5FDB7525F0790100653BCD /* Lab10 */,
 				2E1D611125E73DE200F4EBAB /* Products */,
 			);
@@ -182,6 +225,8 @@
 				2E1D615425E742AA00F4EBAB /* Lab1 */,
 				2E1D617D25E869DF00F4EBAB /* Lab4 */,
 				2E5FDB7425F0790100653BCD /* Lab10 */,
+				2E5FDBAD25F160A500653BCD /* Lab9 */,
+				2E5FDBFB25F1699B00653BCD /* Lab9-1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,6 +301,18 @@
 				2E5FDBA225F15C2600653BCD /* ApplePaymentService.m */,
 			);
 			path = Lab10;
+			sourceTree = "<group>";
+		};
+		2E5FDBAE25F160A500653BCD /* Lab9 */ = {
+			isa = PBXGroup;
+			children = (
+				2E5FDBAF25F160A500653BCD /* main.m */,
+				2E5FDBDC25F168EC00653BCD /* Greeter.h */,
+				2E5FDBDB25F168EC00653BCD /* Greeter.m */,
+				2E5FDBE525F168F800653BCD /* FriendlyGreetingDecider.h */,
+				2E5FDBE425F168F800653BCD /* FriendlyGreetingDecider.m */,
+			);
+			path = Lab9;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,6 +403,40 @@
 			productReference = 2E5FDB7425F0790100653BCD /* Lab10 */;
 			productType = "com.apple.product-type.tool";
 		};
+		2E5FDBAC25F160A500653BCD /* Lab9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5FDBB125F160A500653BCD /* Build configuration list for PBXNativeTarget "Lab9" */;
+			buildPhases = (
+				2E5FDBA925F160A500653BCD /* Sources */,
+				2E5FDBAA25F160A500653BCD /* Frameworks */,
+				2E5FDBAB25F160A500653BCD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab9;
+			productName = Lab9;
+			productReference = 2E5FDBAD25F160A500653BCD /* Lab9 */;
+			productType = "com.apple.product-type.tool";
+		};
+		2E5FDBFA25F1699B00653BCD /* Lab9-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5FDBFF25F1699B00653BCD /* Build configuration list for PBXNativeTarget "Lab9-1" */;
+			buildPhases = (
+				2E5FDBF725F1699B00653BCD /* Sources */,
+				2E5FDBF825F1699B00653BCD /* Frameworks */,
+				2E5FDBF925F1699B00653BCD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lab9-1";
+			productName = "Lab9-1";
+			productReference = 2E5FDBFB25F1699B00653BCD /* Lab9-1 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -369,6 +460,12 @@
 					2E5FDB7325F0790100653BCD = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					2E5FDBAC25F160A500653BCD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2E5FDBFA25F1699B00653BCD = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = 2E1D610B25E73DE200F4EBAB /* Build configuration list for PBXProject "Lab" */;
@@ -389,6 +486,8 @@
 				2E1D613725E73EA300F4EBAB /* Lab3 */,
 				2E1D617C25E869DF00F4EBAB /* Lab4 */,
 				2E5FDB7325F0790100653BCD /* Lab10 */,
+				2E5FDBAC25F160A500653BCD /* Lab9 */,
+				2E5FDBFA25F1699B00653BCD /* Lab9-1 */,
 			);
 		};
 /* End PBXProject section */
@@ -447,6 +546,23 @@
 				2E5FDBA325F15C2600653BCD /* ApplePaymentService.m in Sources */,
 				2E5FDB8225F085BF00653BCD /* PaymentGateway.m in Sources */,
 				2E5FDB9225F0C37000653BCD /* PaypalPaymentService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E5FDBA925F160A500653BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5FDBB025F160A500653BCD /* main.m in Sources */,
+				2E5FDC1A25F16A5B00653BCD /* FriendlyGreetingDecider.m in Sources */,
+				2E5FDC1925F16A5B00653BCD /* Greeter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E5FDBF725F1699B00653BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +780,46 @@
 			};
 			name = Release;
 		};
+		2E5FDBB225F160A500653BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JN53LP5Q35;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E5FDBB325F160A500653BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JN53LP5Q35;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E5FDC0025F1699B00653BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JN53LP5Q35;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E5FDC0125F1699B00653BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JN53LP5Q35;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -717,6 +873,24 @@
 			buildConfigurations = (
 				2E5FDB7825F0790100653BCD /* Debug */,
 				2E5FDB7925F0790100653BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E5FDBB125F160A500653BCD /* Build configuration list for PBXNativeTarget "Lab9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5FDBB225F160A500653BCD /* Debug */,
+				2E5FDBB325F160A500653BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E5FDBFF25F1699B00653BCD /* Build configuration list for PBXNativeTarget "Lab9-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5FDC0025F1699B00653BCD /* Debug */,
+				2E5FDC0125F1699B00653BCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
