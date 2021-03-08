@@ -10,7 +10,7 @@
 
 @implementation Restaurant
 
-- (double)foodTruck:(FoodTruck *)truck priceForFood:(NSString *)food {
+- (double)foodTruck: (FoodTruck *)truck priceForFood:(NSString *)food {
     if ([food isEqualTo:@"bao"]) {
         return 5.0;
     } else {

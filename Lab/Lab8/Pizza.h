@@ -10,12 +10,19 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef enum {
+    small,
+    medium,
+    large,
+} PizzaSize;
+
 @interface Pizza : NSObject
 
-@property (nonatomic) enum PizzaSize {Small, Medium, Large} size;
 @property NSMutableArray *toppings;
 
-- (instancetype)initWithSize:(enum PizzaSize) size AndTopping:(NSMutableArray *) toppings;
+- (instancetype)initWithSize:(PizzaSize) size AndTopping:(NSMutableArray *) toppings;
+
+
 
 @end
 

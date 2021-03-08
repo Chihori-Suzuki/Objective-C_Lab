@@ -10,8 +10,7 @@
 
 @implementation Pizza
 
-
-- (instancetype)initWithSize:(enum PizzaSize) size AndTopping:(NSMutableArray *) toppings
+- (instancetype)initWithSize:(PizzaSize) size AndTopping:(NSMutableArray *) toppings
 {
     self = [super init];
     if (self) {
@@ -21,7 +20,7 @@
     return self;
 }
 
-- (enum PizzaSize)getSize:(NSString *) size {
+- (PizzaSize)getSize:(NSString *) size {
     enum PizzaSize sizeOfPizza;
     if ([size isEqualToString:@"small"]) {
         sizeOfPizza = Small;
